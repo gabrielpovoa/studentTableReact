@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: #FFF;
+  background-color: #0D1B2A;
+  font-size: 13px;
+}
+
+
+ /*
+  VERDE ATIVO = #48A9A6
+  VERMELHO INATIVO = #F52F57
+  HEADBG #1B98E0 247BA0
+  */
